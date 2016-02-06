@@ -1,234 +1,144 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
+html,
+body,
+ul,
+h2,
+p {
+  margin: 0;
+  padding: 0; }
 
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
+html,
+body {
+  height: 100%;
+  background-color: #ffffff; }
 
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
-}
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-textarea {
-    resize: vertical;
-}
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.container {
+  width: 1125px;
+  margin: 0 auto; }
 
 .clear::after {
-    content: '';
-    clear: both;
-    display: block;
-}
+  content: " ";
+  clear: both;
+  display: block; }
 
-.section-tabs {
-    background: #F3F3F3;
-}
+.block_axit {
+  background-color: #9a9a9a;
+  font-family: "Arial";
+  padding-top: 60px;
+  padding-bottom: 140px; }
 
-.tabs__caption {
-    list-style: none;
-    padding: 0px;
-    float: left;
-}
+.item_picture_here {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: font-family-main;
+  font-size: 33.02px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px; }
 
-.tabs__content {
-    display: none;
-}
-.tabs__content.active {
-    display: block;
-}
+.download {
+  width: 70px;
+  border: 2px solid #FDFDFD;
+  padding: 15px 30px;
+  background-color: #9a9a9a; }
+  .download a {
+    font-family: "Arial";
+    color: #FDFDFD;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none; }
+    .download a:hover {
+      color: #EC8D48; }
 
-.tab-name {
-    display: block;
-    width: 112px;
-    height: 112px;
-    text-transform: uppercase;
-    color: #fff;
-    background: #333333;
-    margin-bottom: 1px;
-}
+.module_slogan_axit {
+  float: left; }
 
-.tab-name.active {
-    background-color: #FD8A38;
-}
+.title-axit {
+  font-family: "Arial";
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+  font-weight: 700; }
+  .title-axit .title_color_orange {
+    color: #EC8D48;
+    font-weight: normal; }
 
-.slide-block {
-    float: right;
-}
+.text_slogan {
+  width: 512px;
+  color: #E6E6E6;
+  font-family: "Arial";
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase; }
 
+.border-white {
+  border-bottom: 2px solid #E6E6E6;
+  width: 74px;
+  margin-top: 35px;
+  margin-bottom: 30px; }
 
+.text_underlogan {
+  width: 460px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Arial";
+  line-height: 23px;
+  padding-bottom: 45px; }
 
+.right_block_form {
+  float: right;
+  width: 375px; }
 
+.right_block_form {
+  margin-top: 90px;
+  max-width: 374px;
+  color: #FDFDFD;
+  background: #FDFDFD; }
 
+.title_form {
+  color: #333;
+  font-family: "Arial";
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border: 1px solid #F3F3F3;
+  background: #F3F3F3;
+  padding: 20px 50px; }
+  .title_form .title_color_orange {
+    color: #EC8D48;
+    font-weight: normal;
+    text-transform: uppercase; }
 
-
-
-
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
-}
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
-
-.visuallyhidden {
+.form-top {
+  width: 285px;
+  margin: 0 auto; }
+  .form-top .form-name, .form-top .form-email, .form-top .form-password {
+    width: 250px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-family: 'OpenSans';
+    color: #bdbdbd;
+    font-size: 14px;
+    font-weight: 400;
     border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
+    border-bottom: 2px solid #E7E7E7;
+    outline: none; }
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
+.get_started {
+  width: 100%;
+  font-family: "Arial";
+  text-transform: capitalize;
+  color: #FDFDFD;
+  background-color: #EC8D48;
+  border: 0;
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px 0; }
+  .get_started:hover {
+    color: #E7E7E7; }
 
-.invisible {
-    visibility: hidden;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    *zoom: 1;
-}
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
+/*# sourceMappingURL=main.css.map */
