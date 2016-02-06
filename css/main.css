@@ -1,29 +1,24 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4; }
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
+  background: #b3d4fc;
+  text-shadow: none; }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
+  background: #b3d4fc;
+  text-shadow: none; }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
 
 audio,
 canvas,
@@ -31,168 +26,184 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
-}
+  vertical-align: middle; }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
+  border: 0;
+  margin: 0;
+  padding: 0; }
 
 textarea {
-    resize: vertical;
-}
+  resize: vertical; }
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sec7 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 105px;
+  padding-left: 145px;
+  padding-right: 145px;
+  padding-bottom: 95px;
+  width: 100%;
+  background-color: whitesmoke; }
+  .sec7 .title {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px; }
+  .sec7 h2 {
+    margin-bottom: 30px; }
+  .sec7 .line {
+    margin: auto;
+    width: 65px;
+    border: solid 2px orange; }
+  .sec7 p {
+    margin-top: 30px;
+    font-family: OpenSans;
+    font-size: 14px; }
+  .sec7 .price {
+    width: 79%;
+    display: flex;
+    justify-content: space-between; }
+    .sec7 .price .basic {
+      margin-right: 30px; }
+      .sec7 .price .basic h3 {
+        background-color: #333;
+        margin: 0 auto;
+        padding: 21px 146px;
+        color: #fff;
+        border-bottom: 1px solid whitesmoke;
+        font-family: OpenSans;
+        font-size: 20px;
+        text-transform: capitalize; }
+      .sec7 .price .basic div {
+        background-color: #333;
+        text-align: center;
+        color: whitesmoke;
+        font-family: Raleway;
+        font-weight: bold;
+        font-size: 90px; }
+      .sec7 .price .basic div:first-letter {
+        font-size: 35px; }
+      .sec7 .price .basic p {
+        margin-bottom: 21px;
+        text-align: center;
+        color: #767676;
+        text-transform: capitalize;
+        font-family: OpenSans;
+        font-size: 14px;
+        opacity: 0.5; }
+      .sec7 .price .basic .orange {
+        height: 5px;
+        background-color: orangered; }
+      .sec7 .price .basic .scope {
+        font-family: OpenSans;
+        font-size: 14px;
+        background-color: #fff; }
+        .sec7 .price .basic .scope p {
+          border-bottom: 1px solid whitesmoke; }
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
-}
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 .hidden {
-    display: none !important;
-    visibility: hidden;
-}
+  display: none !important;
+  visibility: hidden; }
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
 
 .invisible {
-    visibility: hidden;
-}
+  visibility: hidden; }
 
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
-}
+  content: " ";
+  display: table; }
 
 .clearfix:after {
-    clear: both;
-}
+  clear: both; }
 
 .clearfix {
-    *zoom: 1;
-}
+  *zoom: 1; }
 
 /* ==========================================================================
    Print styles
    ========================================================================== */
-
 @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important; }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  a,
+  a:visited {
+    text-decoration: underline; }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  a[href]:after {
+    content: " (" attr(href) ")"; }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
 
-    thead {
-        display: table-header-group;
-    }
+  thead {
+    display: table-header-group; }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  tr,
+  img {
+    page-break-inside: avoid; }
 
-    img {
-        max-width: 100% !important;
-    }
+  img {
+    max-width: 100% !important; }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+
+/*# sourceMappingURL=main.css.map */
