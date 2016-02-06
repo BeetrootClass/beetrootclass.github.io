@@ -8,13 +8,10 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/jssor.css">
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/jssor.slider.min.js"></script>
 </head>
 
 <body>
@@ -25,8 +22,28 @@
     <main>
         <section>1</section>
         <section>2</section>
-        <section class="section-tabs">
+        <section class="section-tabs clear">
+            <div class="tabs">
 
+                <ul class="tabs__caption">
+                    <li class="tab-name active">Tab 1</li>
+                    <li class="tab-name">2-я вкладка</li>
+                    <li class="tab-name">3-rd tab</li>
+                </ul>
+
+                <div class="slide-block tabs__content active">
+                    Содержимое первого блока
+                </div>
+
+                <div class="slide-block tabs__content">
+                    Содержимое второго блока
+                </div>
+
+                <div class="slide-block tabs__content">
+                    Content of third block
+                </div>
+
+            </div>
         </section>
         <section>4</section>
         <section>5</section>
