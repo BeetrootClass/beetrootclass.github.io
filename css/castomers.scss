@@ -1,0 +1,21 @@
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+.our-customers {
+    text-align: center;
+    &__title {
+        display: block;
+        font-family: Raleway;
+        font-size: 36px;
+        text-transform: uppercase;
+        color: #212121;
+        &::after {
+            content: '';
+            display: block;
+            width: 64px;
+            margin: 0 auto;
+            border-bottom: 2px solid #ffbf92;
+        }
+    }
+}
