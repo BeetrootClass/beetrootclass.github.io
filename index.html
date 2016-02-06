@@ -8,11 +8,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/jssor.css">
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/jssor.slider.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -65,14 +63,31 @@
             </div>
         </section>
         <section>2</section>
-        <section class="section-tabs"></section>
-        
-        
-        
-        <section class="sub-list">
+        <section class="section-tabs clear">
+            <div class="tabs">
+
+                <ul class="tabs__caption">
+                    <li class="tab-name active">Tab 1</li>
+                    <li class="tab-name">2-я вкладка</li>
+                    <li class="tab-name">3-rd tab</li>
+                </ul>
+                <div class="slide-block tabs__content active">
+                    Содержимое первого блока
+                </div>
+
+                <div class="slide-block tabs__content">
+                    Содержимое второго блока
+                </div>
+                <div class="slide-block tabs__content">
+                    Content of third block
+                </div>
+            </div>
+        </section>
+           <section class="features">
             <div class="container">
+               <div class="features-content clear">
                 <a href="#"><img src="" alt="" class="sub-list__img"></a>
-                <div class="sub-list__text">
+                <div class="sub-list">
                     <h3 class="section-name">
                     Sub list section
                 </h3>
@@ -82,6 +97,7 @@
                     <p class="sub-list__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta.</p>
                     <p class="sub-list__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta.</p>
                 </div>
+            </div>
             </div>
         </section>
         

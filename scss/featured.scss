@@ -1,0 +1,25 @@
+container {
+    width: 1400px;
+    margin: 0 auto;
+}
+.clear::after{
+            content: " ";
+            clear: both;
+            display: block;
+        }
+
+
+.features-content {
+    padding-top: 107px;
+    .sub-list {
+        width: 430px;
+        float: right;
+        .section-name {
+            float: left;
+            color:  #212121;
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            
+        }
+    }
+}
