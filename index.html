@@ -11,6 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -24,10 +25,13 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <header class="header">
+        <div class="container">
+            <div class="header__wrapper clear">
         <div class="header__logo">
+            <a href="#"><img src="img/logo.png" alt="AXIT"/></a>
         </div>
-        <nav class="header__site-navigation">
-            <ul class="site-navigation">
+        <nav class="site-navigation">
+            <ul class="site-navigation__navlist">
                 <li class="site-navigation__item">
                     <a class="site-navigation__link">Features</a>
                 </li>
@@ -38,31 +42,38 @@
                     <a class="site-navigation__link">Pricing</a>
                 </li>
                 <li class="site-navigation__item">
-                    <a class="site-navigation__link">Review</a>
+                    <a class="site-navigation__link">Reviews</a>
                 </li>
                 <li class="site-navigation__item">
-                    <a class="site-navigation__link">Control</a>
+                    <a class="site-navigation__link">Contact</a>
                 </li>
             </ul>
         </nav>
+            </div>
+            </div>
     </header>
     <main>
         <section class="block_axit">
-            <p class="item_picture_here"></p>
-            <div class="item_slogan_axit">
-                <h1 class="title-axit">axit</h1>
-                <p class="text_slogan">modern axure template for beutiful prototypes</p>
-                <p class="text_modlogan"></p>
-                <p class="download"><a href="#">download</a></p>
-            </div>
-            <div class="right_block_form">
-                <h4 class="title_form"></h4>
-                <form action="#" method="get">
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Email">
-                    <input class="password" type="text" placeholder="Password">
-                    <input class="submit" type="submit" value="get started">
-                </form>
+            <div class="container clear">
+                <p class="item_picture_here">insert your picture here</p>
+                <div class="module_slogan_axit">
+                    <h1 class="title-axit">ax<span class="title_color_orange">it</span></h1>
+                    <p class="text_slogan">modern axure template for beutiful prototypes</p>
+                    <div class="border-white"></div>
+                    <p class="text_underlogan">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                    <p class="download"><a href="#">download</a></p>
+                </div>
+                <div class="right_block_form clear">
+                    <h4 class="title_form">try your <span class="title_color_orange">free</span> trial today</h4>
+                    <form action="#" method="get">
+                        <div class="form-top">
+                            <input class="form-name" type="text" placeholder="Name">
+                            <input class="form-email" type="text" placeholder="Email">
+                            <input class="form-password" class="password" type="text" placeholder="Password">
+                        </div>
+                        <input class="get_started" type="submit" value="get started">
+                    </form>
+                </div>
             </div>
         </section>
         <section>2</section>
