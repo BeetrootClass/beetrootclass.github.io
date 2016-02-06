@@ -56,10 +56,46 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.clear::after {
+    content: '';
+    clear: both;
+    display: block;
+}
 
+.section-tabs {
+    background: #F3F3F3;
+}
 
+.tabs__caption {
+    list-style: none;
+    padding: 0px;
+    float: left;
+}
 
+.tabs__content {
+    display: none;
+}
+.tabs__content.active {
+    display: block;
+}
 
+.tab-name {
+    display: block;
+    width: 112px;
+    height: 112px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #333333;
+    margin-bottom: 1px;
+}
+
+.tab-name.active {
+    background-color: #FD8A38;
+}
+
+.slide-block {
+    float: right;
+}
 
 
 
