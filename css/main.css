@@ -1,3 +1,74 @@
+p {
+  margin: 0; }
 
+.clear::after {
+  content: " ";
+  clear: both;
+  display: block; }
+
+.container {
+  width: 1124px;
+  margin: 0 auto; }
+
+.features {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 107px;
+  padding-bottom: 133px; }
+  .features__img {
+    width: 353px;
+    height: 203px;
+    padding-top: 110px;
+    padding-left: 132px;
+    margin-right: 0;
+    float: left;
+    margin-top: 20px;
+    box-shadow: 0 0 26px rgba(0, 0, 0, 0.5);
+    background-color: #9a9a9a; }
+    .features__img .insert {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 33px;
+      font-weight: 400;
+      text-align: center;
+      width: 200px; }
+  .features__text {
+    margin-left: 195px;
+    float: left;
+    width: 435px; }
+    .features__text .section-name {
+      color: #212121;
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0; }
+    .features__text .section-name:after {
+      content: "";
+      border-bottom: 5px solid #ff8b38;
+      width: 64px;
+      height: 2px;
+      display: block;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .features__text .features__description {
+      font-family: OpenSans;
+      color: #86878b;
+      font-size: 20px;
+      font-weight: 400;
+      width: 415px;
+      margin-bottom: 45px; }
+    .features__text .sub-list__item {
+      width: 431px;
+      margin-bottom: 42px; }
+      .features__text .sub-list__item .item-title {
+        margin-bottom: 12px;
+        color: #212121;
+        font-size: 14px;
+        font-weight: 700; }
+      .features__text .sub-list__item .item-text {
+        width: 360px; }
+      .features__text .sub-list__item .item-icon {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: 30px;
+        margin-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */
