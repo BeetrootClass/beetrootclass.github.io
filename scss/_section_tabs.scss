@@ -1,0 +1,166 @@
+//GLOBAL STYLES
+
+.clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.content  {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+//-----------------------------------
+
+.section-tabs {
+  background: #F3F3F3;
+  padding: 142px 0 114px 0;
+}
+
+.download-btn {
+  width: 121px;
+  height: 46px;
+  background: #FD8A38;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  margin: 42px 0 0 10px;
+
+  &:hover {
+    background: #FD701A;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.tabs {
+  &__caption {
+    list-style: none;
+    padding: 0px;
+    float: left;
+    margin: 0;
+  }
+
+  &__title  {
+    color:  #000000;
+    font-size: 20px;
+    margin: 0 0 52px 0;
+  }
+
+  &__text {
+    width: 53%;
+    float: left;
+  }
+
+  &__image {
+    float: right;
+    width:  35.5%;
+    margin-top: 25px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__description {
+    color:  #86878b;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__content {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+
+  }
+}
+
+.tab-name {
+  display: block;
+  width: 112px;
+  height: 112px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #333333;
+  margin-bottom: 1px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 112px;
+  font-weight: bold;
+
+  &.active {
+    background-color: #FD8A38;
+  }
+}
+
+.slide-block {
+  float: right;
+  width: 81.8%;
+}
+
+.modal-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.popup {
+  width: 728px;
+  color: #6673ff;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -364px;
+  margin-top: -200px;
+
+  &-header {
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  &-content-block {
+    width: 100%;
+    height: 430px;
+    background-color: #6673ff;
+    border-radius: 6px;
+    color: white;
+    border: 2px solid #1940ff;
+    text-align: center;
+
+    img {
+      width: 80%;
+      height: 50px;
+      margin-top: 140px;
+      margin-bottom: 15px;
+
+    }
+
+    p {
+      text-transform: uppercase;
+    }
+
+    .link-toon {
+      display: block;
+      color: white;
+      text-decoration: none;
+      width: 246px;
+      height: 45px;
+      line-height: 45px;
+      border: 1px dotted white;
+      border-radius: 6px;
+      margin: 20px auto;
+
+    }
+  }
+}
+
+

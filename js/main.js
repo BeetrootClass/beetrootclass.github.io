@@ -16,3 +16,9 @@
 
         })
     })(jQuery);
+
+$(window).load(function(){
+    $('.modal-bg').click(function(){
+        $(this).hide();
+    });
+});
