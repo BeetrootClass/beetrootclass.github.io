@@ -57,15 +57,34 @@ textarea {
    ========================================================================== */
 
 
+.contacts {
+    margin: 0 auto;
+}
 
+h3 {
+    font-family: 'Courier New', sans-serif;
+    font-size: 36px;
+}
 
+h3:after {
+    border-bottom: 1px solid red;
+    padding-top: 10px;
+}
 
+.right-side-contacts {
+    float: right;
+}
 
+.left-side-contacts {
+    float: left;
+}
 
-
-
-
-
+.contacts input,
+.contacts textarea {
+    border: none;
+    border-bottom: 1px solid grey;
+    resize: none;
+}
 
 
 
