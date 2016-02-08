@@ -1,8 +1,9 @@
 .container {
-    width: 1110px;
+    width: 1080px;
     margin: 0 auto;
 }
 .our-customers {
+    margin: 100px 0;
     text-align: center;
     &__title {
         display: block;
@@ -20,6 +21,7 @@
         }
     }
     &__descriprion {
+        padding-top: 25px;
         font-family: 'Open sans';
         font-size: 14px;
         color: #86878b;
@@ -27,7 +29,7 @@
     &__block {
         width: 290px;
         float: left;
-        margin-right: 120px;
+        margin-right: 103px;
         &:last-child {
             margin-right: 0px;
         }
@@ -38,9 +40,11 @@
 }
 .block {
     &__content {
-        padding: 10px 20px;
-        margin-bottom: 30px;
+        background: transparent;
+        padding: 25px 20px;
+        margin-bottom: 24px;
         text-align: left;
+        line-height: 17px;
         font-family: 'Open sans';
         font-size: 14px;
         color: #86878b;
@@ -48,15 +52,16 @@
     }
     &__photoCustomer {
         float: left;
+        margin-left: 12px;
         width: 70px;
         height: 70px;
         border-radius: 35px;
     }
     &__nameCustomer {
-        padding: 13px 0 0 20px;
+        padding: 13px 0 0 15px;
         float: left;
         text-align: left;
-        line-height: 20px;
+        line-height: 22px;
         font-family: 'Open sans';
         font-size: 20px;
         color: #86878b;
