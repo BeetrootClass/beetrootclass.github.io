@@ -7,14 +7,14 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/castomers.css">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
@@ -26,48 +26,53 @@
     <header class="header">
         <div class="container">
             <div class="header__wrapper clear">
-        <div class="header__logo">
-            <a href="#"><img src="img/logo.png" alt="AXIT"/></a>
+                <div class="header__logo">
+                    <a href="#"><img src="img/logo.png" alt="AXIT" /></a>
+                </div>
+                <nav class="site-navigation">
+                    <ul class="site-navigation__navlist">
+                        <li class="site-navigation__item">
+                            <a class="site-navigation__link">Features</a>
+                        </li>
+                        <li class="site-navigation__item">
+                            <a class="site-navigation__link">About</a>
+                        </li>
+                        <li class="site-navigation__item">
+                            <a class="site-navigation__link">Pricing</a>
+                        </li>
+                        <li class="site-navigation__item">
+                            <a class="site-navigation__link">Reviews</a>
+                        </li>
+                        <li class="site-navigation__item">
+                            <a class="site-navigation__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <nav class="site-navigation">
-            <ul class="site-navigation__navlist">
-                <li class="site-navigation__item">
-                    <a class="site-navigation__link">Features</a>
-                </li>
-                <li class="site-navigation__item">
-                    <a class="site-navigation__link">About</a>
-                </li>
-                <li class="site-navigation__item">
-                    <a class="site-navigation__link">Pricing</a>
-                </li>
-                <li class="site-navigation__item">
-                    <a class="site-navigation__link">Reviews</a>
-                </li>
-                <li class="site-navigation__item">
-                    <a class="site-navigation__link">Contact</a>
-                </li>
-            </ul>
-        </nav>
-            </div>
-            </div>
     </header>
     <main>
         <section class="block_axit">
-            <p class="item_picture_here"></p>
-            <div class="item_slogan_axit">
-                <h1 class="title-axit">axit</h1>
-                <p class="text_slogan">modern axure template for beutiful prototypes</p>
-                <p class="text_modlogan"></p>
-                <p class="download"><a href="#">download</a></p>
-            </div>
-            <div class="right_block_form">
-                <h4 class="title_form"></h4>
-                <form action="#" method="get">
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Email">
-                    <input class="password" type="text" placeholder="Password">
-                    <input class="submit" type="submit" value="get started">
-                </form>
+            <div class="container clear">
+                <p class="item_picture_here">insert your picture here</p>
+                <div class="module_slogan_axit">
+                    <h1 class="title-axit">ax<span class="title_color_orange">it</span></h1>
+                    <p class="text_slogan">modern axure template for beutiful prototypes</p>
+                    <div class="border-white"></div>
+                    <p class="text_underlogan">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                    <p class="download"><a href="#">download</a></p>
+                </div>
+                <div class="right_block_form clear">
+                    <h4 class="title_form">try your <span class="title_color_orange">free</span> trial today</h4>
+                    <form action="#" method="get">
+                        <div class="form-top">
+                            <input class="form-name" type="text" placeholder="Name">
+                            <input class="form-email" type="text" placeholder="Email">
+                            <input class="form-password" class="password" type="text" placeholder="Password">
+                        </div>
+                        <input class="get_started" type="submit" value="get started">
+                    </form>
+                </div>
             </div>
         </section>
         <section>2</section>
@@ -177,8 +182,31 @@
                 </div>
         </section>
         <section class="our-customers">
-            <h2 class="our-customers__title">What our customers are saying</h2>
-            <h2 class="our-customers__descriprion">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+            <div class="container">
+                <h2 class="our-customers__title">What our customers are saying</h2>
+                <p class="our-customers__descriprion">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                <div class="block-wrapper clear">
+                    <div class="our-customers__block">
+                        <div class="block__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</div>
+                        <img class="block__photoCustomer" src="images/face-1.png" />
+                        <div class="block__nameCustomer">Jeremy H.
+                            <br><span class="block__professionCustomer">Manager</span></div>
+                    </div>
+                    <div class="our-customers__block">
+                        <div class="block__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</div>
+                        <img class="block__photoCustomer" src="images/face-2.png" />
+                        <div class="block__nameCustomer">Susan C.
+                            <br><span class="block__professionCustomer">Freelancer</span></div>
+                    </div>
+                    <div class="our-customers__block">
+                        <div class="block__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</div>
+                        <img class="block__photoCustomer" src="images/face-3.png" />
+                        <div class="block__nameCustomer">Leyla J.
+                            <br><span class="block__professionCustomer">Manager</span></div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section>
             <div class="main-wrapper">

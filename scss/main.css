@@ -1,9 +1,11 @@
+/* line 2, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 *:after,
 *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* line 11, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 html,
 body,
 ul,
@@ -12,26 +14,31 @@ p {
   margin: 0;
   padding: 0; }
 
+/* line 17, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 html,
 body {
   height: 100%;
   background-color: #ffffff; }
 
+/* line 21, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .container {
   width: 1125px;
   margin: 0 auto; }
 
+/* line 25, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .clear::after {
   content: " ";
   clear: both;
   display: block; }
 
+/* line 55, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .block_axit {
   background-color: #9a9a9a;
   font-family: "Arial";
   padding-top: 60px;
   padding-bottom: 140px; }
 
+/* line 62, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .item_picture_here {
   color: rgba(255, 255, 255, 0.5);
   font-family: font-family-main;
@@ -40,11 +47,13 @@ body {
   text-align: center;
   margin-bottom: 15px; }
 
+/* line 71, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .download {
   width: 70px;
   border: 2px solid #FDFDFD;
   padding: 15px 30px;
   background-color: #9a9a9a; }
+  /* line 76, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
   .download a {
     font-family: "Arial";
     color: #FDFDFD;
@@ -52,22 +61,27 @@ body {
     font-weight: 600;
     text-transform: capitalize;
     text-decoration: none; }
+    /* line 78, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
     .download a:hover {
       color: #EC8D48; }
 
+/* line 83, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .module_slogan_axit {
   float: left; }
 
+/* line 86, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .title-axit {
   font-family: "Arial";
   font-size: 60px;
   text-transform: uppercase;
   color: #FDFDFD;
   font-weight: 700; }
+  /* line 92, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
   .title-axit .title_color_orange {
     color: #EC8D48;
     font-weight: normal; }
 
+/* line 97, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .text_slogan {
   width: 512px;
   color: #E6E6E6;
@@ -76,12 +90,14 @@ body {
   font-weight: 400;
   text-transform: uppercase; }
 
+/* line 105, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .border-white {
   border-bottom: 2px solid #E6E6E6;
   width: 74px;
   margin-top: 35px;
   margin-bottom: 30px; }
 
+/* line 111, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .text_underlogan {
   width: 460px;
   color: rgba(255, 255, 255, 0.5);
@@ -89,16 +105,19 @@ body {
   line-height: 23px;
   padding-bottom: 45px; }
 
+/* line 118, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .right_block_form {
   float: right;
   width: 375px; }
 
+/* line 122, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .right_block_form {
   margin-top: 90px;
   max-width: 374px;
   color: #FDFDFD;
   background: #FDFDFD; }
 
+/* line 128, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .title_form {
   color: #333;
   font-family: "Arial";
@@ -108,14 +127,17 @@ body {
   border: 1px solid #F3F3F3;
   background: #F3F3F3;
   padding: 20px 50px; }
+  /* line 137, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
   .title_form .title_color_orange {
     color: #EC8D48;
     font-weight: normal;
     text-transform: uppercase; }
 
+/* line 142, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .form-top {
   width: 285px;
   margin: 0 auto; }
+  /* line 145, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
   .form-top .form-name, .form-top .form-email, .form-top .form-password {
     width: 250px;
     margin-top: 30px;
@@ -128,6 +150,7 @@ body {
     border-bottom: 2px solid #E7E7E7;
     outline: none; }
 
+/* line 164, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
 .get_started {
   width: 100%;
   font-family: "Arial";
@@ -138,9 +161,11 @@ body {
   margin-top: 50px;
   text-align: center;
   padding: 20px 0; }
+  /* line 174, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header_panel.scss */
   .get_started:hover {
     color: #E7E7E7; }
 
+/* line 3, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header-social-footer.scss */
 *,
 *:after,
 *:before {
@@ -148,36 +173,45 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* line 9, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header-social-footer.scss */
 html,
 body {
   height: 100%; }
 
+/* line 12, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header-social-footer.scss */
 .container {
   width: 1125px;
   margin: 0 auto; }
 
+/* line 17, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header-social-footer.scss */
 .clear::after {
   content: " ";
   clear: both;
   display: block; }
 
+/* line 23, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header-social-footer.scss */
 .header {
   background-color: #000000; }
+  /* line 25, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header-social-footer.scss */
   .header__logo {
     width: 79px;
     height: 27px;
     float: left;
     margin: 21px 0 22px 0; }
 
+/* line 32, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header-social-footer.scss */
 .site-navigation {
   float: right; }
+  /* line 34, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header-social-footer.scss */
   .site-navigation__navlist {
     list-style: none;
     padding-top: 10px; }
+  /* line 39, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header-social-footer.scss */
   .site-navigation__item {
     display: inline-block;
     padding-right: 23px;
     padding-left: 20px; }
+  /* line 44, C:/Users/ageyevse/Brecets/beetrootclass.github.io/scss/_header-social-footer.scss */
   .site-navigation__link {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
