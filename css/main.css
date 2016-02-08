@@ -185,4 +185,151 @@ body {
     font-size: 14px;
     font-weight: 600; }
 
+.container {
+  margin: 0 auto;
+  width: 1125px; }
+
+.our_servises {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Open Sans', sans-serif; }
+
+.our-servise-slogan {
+  color: #86878b;
+  font-size: 14px;
+  line-height: 20px; }
+
+.anchor-text-slogan {
+  font-family: 'Raleway', sans-serif;
+  color: #212121;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  text-transform: uppercase; }
+
+.anchor-text:after {
+  content: "";
+  display: inline-block;
+  margin: 30px;
+  width: 64px;
+  height: 2px;
+  background: #ff8b38; }
+
+.our-servises-design {
+  overflow: auto; }
+
+.design-content-outer {
+  display: inline-block;
+  float: left;
+  padding: 80px 30px;
+  width: 33.33%;
+  box-sizing: border-box;
+  color: #222222; }
+
+.our-servises-design > div:first-child {
+  padding-left: 0;
+  padding-right: 30px; }
+
+.our-servises-design > div:last-child {
+  padding-left: 30px;
+  padding-right: 0px; }
+
+.design-text-title {
+  color: #333333;
+  font-size: 20px;
+  line-height: 24px; }
+
+.design-icons {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  border: 3px solid #ff8b38;
+  border-radius: 50px;
+  line-height: 80px; }
+
+.icon {
+  color: #ff8b38;
+  font-size: 32px; }
+
+.design-text-main {
+  color: #86878b;
+  font-size: 14px;
+  line-height: 20px; }
+
+.container-wrapper-background {
+  background-color: #9b9b9b;
+  min-height: 320px;
+  padding: 0; }
+
+.container-custom_9 {
+  width: 1123px;
+  padding: 0;
+  margin: 0 auto; }
+
+.section-stylish-header {
+  padding-top: 60px; }
+
+.section-stylish-header h3 {
+  font-family: Raleway;
+  text-transform: uppercase;
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0; }
+
+.section-stylish-header h3::after {
+  content: "";
+  display: block;
+  background-image: url(../img/divider.png);
+  width: 74px;
+  height: 16px;
+  text-align: center;
+  margin: 16px auto;
+  padding: 0; }
+
+.section-stylish-slogan {
+  text-align: center; }
+
+.section-stylish-slogan span {
+  font-family: Raleway;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin: 0; }
+
+.section-stylish-button {
+  text-align: center;
+  margin-top: 27px; }
+
+.section-stylish-button .section-stylish-press {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  width: 135px;
+  height: 42px; }
+
+.section-stylish-button .section-stylish-press:hover {
+  background-color: grey; }
+
+.section-stylish-button .section-stylish-press a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 15px;
+  text-decoration: none; }
+
+.section-stylish-link {
+  margin-top: 20px;
+  text-align: center; }
+
+.section-stylish-link a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: darkgrey;
+  font-size: 16px;
+  text-decoration: none; }
+
 /*# sourceMappingURL=main.css.map */
