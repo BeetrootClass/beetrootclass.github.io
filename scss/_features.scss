@@ -8,17 +8,19 @@ p {
             display: block;
         }
     }
+.features {
 .container {
     width: 1124px;
     margin: 0 auto;
+}
 }
 .features {
     font-family: 'Open Sans', sans-serif;
     padding-top: 107px;
     padding-bottom: 133px;
     &__img {
-        width: 353px;
-        height: 203px;
+        width: 453px;
+        height: 303px;
         padding-top: 110px;
         padding-left: 132px;
         margin-right: 0;
@@ -26,6 +28,7 @@ p {
         margin-top: 20px;
         box-shadow: 0 0 26px rgba(0,0,0,0.5);
         background-color: #9a9a9a;
+        cursor: pointer;
         .insert {
                 
                 color: rgba(255, 255, 255, 0.5);
@@ -50,9 +53,8 @@ p {
         }
          .section-name:after {
                     content: "";
-                    border-bottom: 5px solid #ff8b38;
+                    border-bottom: 2px solid #ff8b38;
                     width: 64px;
-                    height: 2px;
                     display: block;
                     margin-top: 30px;
                     margin-bottom: 30px;
@@ -61,7 +63,7 @@ p {
         .features__description {
             font-family: OpenSans;
             color: #86878b;
-            font-size: 20px;
+            font-size: 14px;
             font-weight: 400;
             width: 415px;
             margin-bottom: 45px;
@@ -71,6 +73,9 @@ p {
         .sub-list__item {
             width: 431px;
             margin-bottom: 42px;
+            &:last-child{
+                margin-bottom: 0;
+            }
               .item-title {
             margin-bottom: 12px;
             color: #212121;
@@ -80,6 +85,7 @@ p {
             }
             .item-text {
                 width: 360px;
+                font-size: 14px;
             }
             
             .item-icon {
