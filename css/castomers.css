@@ -1,0 +1,80 @@
+/* line 1, C:/Users/ageyevse/Brecets/beetrootclass.github.io/css/castomers.scss */
+.container {
+  width: 1080px;
+  margin: 0 auto; }
+
+/* line 5, C:/Users/ageyevse/Brecets/beetrootclass.github.io/css/castomers.scss */
+.our-customers {
+  margin: 100px 0;
+  text-align: center; }
+  /* line 8, C:/Users/ageyevse/Brecets/beetrootclass.github.io/css/castomers.scss */
+  .our-customers__title {
+    display: block;
+    font-family: Raleway;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #212121; }
+    /* line 14, C:/Users/ageyevse/Brecets/beetrootclass.github.io/css/castomers.scss */
+    .our-customers__title::after {
+      content: '';
+      display: block;
+      padding-top: 20px;
+      width: 64px;
+      margin: 0 auto;
+      border-bottom: 2px solid #ffbf92; }
+  /* line 23, C:/Users/ageyevse/Brecets/beetrootclass.github.io/css/castomers.scss */
+  .our-customers__descriprion {
+    padding-top: 25px;
+    font-family: 'Open sans';
+    font-size: 14px;
+    color: #86878b; }
+  /* line 29, C:/Users/ageyevse/Brecets/beetrootclass.github.io/css/castomers.scss */
+  .our-customers__block {
+    width: 290px;
+    float: left;
+    margin-right: 103px; }
+    /* line 33, C:/Users/ageyevse/Brecets/beetrootclass.github.io/css/castomers.scss */
+    .our-customers__block:last-child {
+      margin-right: 0px; }
+
+/* line 38, C:/Users/ageyevse/Brecets/beetrootclass.github.io/css/castomers.scss */
+.block-wrapper {
+  padding-top: 50px; }
+
+/* line 42, C:/Users/ageyevse/Brecets/beetrootclass.github.io/css/castomers.scss */
+.block__content {
+  background: transparent;
+  padding: 25px 20px;
+  margin-bottom: 24px;
+  text-align: left;
+  line-height: 17px;
+  font-family: 'Open sans';
+  font-size: 14px;
+  color: #86878b;
+  font-style: italic; }
+
+/* line 53, C:/Users/ageyevse/Brecets/beetrootclass.github.io/css/castomers.scss */
+.block__photoCustomer {
+  float: left;
+  margin-left: 12px;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px; }
+
+/* line 60, C:/Users/ageyevse/Brecets/beetrootclass.github.io/css/castomers.scss */
+.block__nameCustomer {
+  padding: 13px 0 0 15px;
+  float: left;
+  text-align: left;
+  line-height: 22px;
+  font-family: 'Open sans';
+  font-size: 20px;
+  color: #86878b; }
+
+/* line 69, C:/Users/ageyevse/Brecets/beetrootclass.github.io/css/castomers.scss */
+.block__professionCustomer {
+  font-family: 'Open sans';
+  font-size: 14px;
+  color: #333; }
+
+/*# sourceMappingURL=castomers.css.map */

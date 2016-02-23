@@ -1,0 +1,18 @@
+$font-stack: OpenSans, san-serif;
+
+
+.content {
+  max-width: 1123px;
+  width: 90%;
+}
+
+.standard-picture {
+  font: $font-stack;
+  background-color: whitesmoke;
+  
+  .standard-picture-description {
+    width: 473px;
+    text-align: left;
+  }
+  
+}
